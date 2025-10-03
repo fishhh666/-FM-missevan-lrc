@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         猫耳FM内嵌字幕录制提取lrc
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/fishhh666
 // @version      1.0
 // @description  自动捕获猫耳FM/missevan播放器内嵌字幕并导出为LRC文件，支持监测播放快结束时自动暂停并触发下载，支持手动下载，清除字幕缓存。网址变化会自动清除已收集的字幕。
 // @author       fishhh666
@@ -235,4 +235,5 @@
     updateMenu();
     console.log('[字幕脚本] 正在监控字幕...');
   });
+
 })();
